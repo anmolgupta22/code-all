@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\deque_arr.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\deque_arr.dir/objects.a @CMakeFiles\deque_arr.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\deque_arr.dir/objects.a -Wl,--no-whole-archive -o deque_arr.exe -Wl,--out-implib,libdeque_arr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\deque_arr.dir\linklibs.rsp

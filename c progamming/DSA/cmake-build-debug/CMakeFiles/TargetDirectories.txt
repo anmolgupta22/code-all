@@ -1,0 +1,4 @@
+C:/c progamming/DSA/cmake-build-debug/CMakeFiles/DSA.dir
+C:/c progamming/DSA/cmake-build-debug/CMakeFiles/chell.dir
+C:/c progamming/DSA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c progamming/DSA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+C:/c++/Assignment1_ds_sir/Assignment2_ds_sir/Pratical 1/cmake-build-debug/CMakeFiles/Qu1.dir
+C:/c++/Assignment1_ds_sir/Assignment2_ds_sir/Pratical 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/c++/Assignment1_ds_sir/Assignment2_ds_sir/Pratical 1/cmake-build-debug/CMakeFiles/Qq-1.dir
+C:/c++/Assignment1_ds_sir/Assignment2_ds_sir/Pratical 1/cmake-build-debug/CMakeFiles/Que.dir
+C:/c++/Assignment1_ds_sir/Assignment2_ds_sir/Pratical 1/cmake-build-debug/CMakeFiles/Qu_1b.dir
+C:/c++/Assignment1_ds_sir/Assignment2_ds_sir/Pratical 1/cmake-build-debug/CMakeFiles/edit_cache.dir

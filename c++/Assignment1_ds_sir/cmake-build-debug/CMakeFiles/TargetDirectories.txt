@@ -1,0 +1,14 @@
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/Assignment1_ds_sir.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/a2.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/try1.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/a3.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/a4.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/A5.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/A6.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/A7.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/A8.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/a7second.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/A9.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/py_1.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c++/Assignment1_ds_sir/cmake-build-debug/CMakeFiles/rebuild_cache.dir

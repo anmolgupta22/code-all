@@ -1,0 +1,12 @@
+C:/c++/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c++/cmake-build-debug/CMakeFiles/aman.dir
+C:/c++/cmake-build-debug/CMakeFiles/c__.dir
+C:/c++/cmake-build-debug/CMakeFiles/anmol.dir
+C:/c++/cmake-build-debug/CMakeFiles/zerosand1s.dir
+C:/c++/cmake-build-debug/CMakeFiles/sumu.dir
+C:/c++/cmake-build-debug/CMakeFiles/try.dir
+C:/c++/cmake-build-debug/CMakeFiles/aman2.dir
+C:/c++/cmake-build-debug/CMakeFiles/try1.dir
+C:/c++/cmake-build-debug/CMakeFiles/try2.dir
+C:/c++/cmake-build-debug/CMakeFiles/Aman4.dir
+C:/c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

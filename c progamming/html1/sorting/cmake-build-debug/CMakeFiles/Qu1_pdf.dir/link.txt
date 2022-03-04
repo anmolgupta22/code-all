@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Qu1_pdf.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Qu1_pdf.dir/objects.a @CMakeFiles\Qu1_pdf.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Qu1_pdf.dir/objects.a -Wl,--no-whole-archive -o Qu1_pdf.exe -Wl,--out-implib,libQu1_pdf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Qu1_pdf.dir\linklibs.rsp

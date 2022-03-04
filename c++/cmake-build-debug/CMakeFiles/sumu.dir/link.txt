@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sumu.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\sumu.dir/objects.a @CMakeFiles\sumu.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\sumu.dir/objects.a -Wl,--no-whole-archive -o sumu.exe -Wl,--out-implib,libsumu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sumu.dir\linklibs.rsp

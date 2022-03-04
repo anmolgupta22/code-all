@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment_ds"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu3">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu3"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu3/fast">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu3/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_ds">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Assignment_ds.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_ds"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_ds/fast">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Assignment_ds.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_ds/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qqa">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qqa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qqa"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qqa/fast">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qqa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qqa/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu11">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu11.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu11"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu11/fast">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu11.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu11/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu4">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu4"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu4/fast">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu4/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu2">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Qu2/fast">
+				<Option output="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Qu2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 Qu2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/c progamming/python/Sorting/Assignment_ds/Qqa.cpp">
+			<Option target="Qqa"/>
+		</Unit>
+		<Unit filename="C:/c progamming/python/Sorting/Assignment_ds/Qu1.c">
+			<Option target="Assignment_ds"/>
+		</Unit>
+		<Unit filename="C:/c progamming/python/Sorting/Assignment_ds/Qu11_.cpp">
+			<Option target="Qu11"/>
+		</Unit>
+		<Unit filename="C:/c progamming/python/Sorting/Assignment_ds/Qu2.c">
+			<Option target="Qu2"/>
+		</Unit>
+		<Unit filename="C:/c progamming/python/Sorting/Assignment_ds/Qu3.c">
+			<Option target="Qu3"/>
+		</Unit>
+		<Unit filename="C:/c progamming/python/Sorting/Assignment_ds/Qu4.c">
+			<Option target="Qu4"/>
+		</Unit>
+		<Unit filename="C:/c progamming/python/Sorting/Assignment_ds/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

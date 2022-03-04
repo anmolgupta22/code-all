@@ -1,0 +1,3 @@
+C:/c progamming/cmake-build-debug/CMakeFiles/ama.dir
+C:/c progamming/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c progamming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

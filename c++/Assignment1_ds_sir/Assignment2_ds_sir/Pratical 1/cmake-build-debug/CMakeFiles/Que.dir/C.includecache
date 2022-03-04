@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/c++/Assignment1_ds_sir/Assignment2_ds_sir/Pratical 1/Que_1.c
+stdio.h
+-
+conio.h
+-
+stdlib.h
+-
+time.h
+-
+

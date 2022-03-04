@@ -1,0 +1,6 @@
+C:/c++/Assignment2_ds-sir/cmake-build-debug/CMakeFiles/Assignment2_ds_sir.dir
+C:/c++/Assignment2_ds-sir/cmake-build-debug/CMakeFiles/A2.dir
+C:/c++/Assignment2_ds-sir/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/c++/Assignment2_ds-sir/cmake-build-debug/CMakeFiles/A3.dir
+C:/c++/Assignment2_ds-sir/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c++/Assignment2_ds-sir/cmake-build-debug/CMakeFiles/A4.dir

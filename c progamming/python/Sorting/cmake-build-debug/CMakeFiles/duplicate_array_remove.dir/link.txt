@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\duplicate_array_remove.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\duplicate_array_remove.dir/objects.a @CMakeFiles\duplicate_array_remove.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\duplicate_array_remove.dir/objects.a -Wl,--no-whole-archive -o duplicate_array_remove.exe -Wl,--out-implib,libduplicate_array_remove.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\duplicate_array_remove.dir\linklibs.rsp

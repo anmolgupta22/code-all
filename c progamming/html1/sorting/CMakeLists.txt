@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.20)
+project(sorting)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(sorting
+        Linear_searching.cpp)
+add_executable(bubble_sort bubble_sort.cpp)
+add_executable(selection selection.cpp)
+add_executable(singly_LL singly_LL.cpp)
+add_executable(Qu1 Qu1.cpp)
+add_executable(Qu2 Qu2.cpp)
+add_executable(Qu3 Qu3a.cpp)
+add_executable(Qu3b Qu3b.cpp)
+add_executable(Qu3c Qu3c.cpp)
+add_executable(Qu5_pdf Qu5_pdf.c)
+add_executable(Qu6_pdf Qu6_pdf.c)
+add_executable(Qu7_pdf Qu7_pdf.c)
+add_executable(Qu1_pdf Qu1_pdf.c)
+add_executable(Qu1_pdf2 Qu1_pdf2.cpp)
+add_executable(Qu2_pdf Qu2_pdf.cpp)
+add_executable(B_tree B_tree.cpp)
+add_executable(s1 s1.cpp)

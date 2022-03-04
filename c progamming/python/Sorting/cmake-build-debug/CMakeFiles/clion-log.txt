@@ -1,0 +1,17 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "c:\c progamming\python\Sorting"
+-- Configuring done
+CMake Error at CMakeLists.txt:38 (add_executable):
+  Cannot find source file:
+
+    Value_equal_to_index_value
+
+
+CMake Error at CMakeLists.txt:38 (add_executable):
+  No SOURCES given to target: v1
+
+
+CMake Error at CMakeLists.txt:37 (add_executable):
+  No SOURCES given to target: value_equal
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

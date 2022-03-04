@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\searching.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\searching.dir/objects.a @CMakeFiles\searching.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\searching.dir/objects.a -Wl,--no-whole-archive -o searching.exe -Wl,--out-implib,libsearching.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\searching.dir\linklibs.rsp

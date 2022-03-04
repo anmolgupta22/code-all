@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Assignment2_ds_sir.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Assignment2_ds_sir.dir/objects.a @CMakeFiles\Assignment2_ds_sir.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Assignment2_ds_sir.dir/objects.a -Wl,--no-whole-archive -o Assignment2_ds_sir.exe -Wl,--out-implib,libAssignment2_ds_sir.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Assignment2_ds_sir.dir\linklibs.rsp

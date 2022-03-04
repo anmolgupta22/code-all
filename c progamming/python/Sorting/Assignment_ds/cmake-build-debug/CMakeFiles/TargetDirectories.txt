@@ -1,0 +1,8 @@
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/Qu3.dir
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/Assignment_ds.dir
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/Qqa.dir
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/Qu11.dir
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/Qu4.dir
+C:/c progamming/python/Sorting/Assignment_ds/cmake-build-debug/CMakeFiles/Qu2.dir
