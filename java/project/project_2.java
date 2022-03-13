@@ -2,7 +2,7 @@ package project;
 import java.awt.*;
 import java.util.*;
 class data {
-    float bill_Amount, unit, fans,fans_long, light,light_long, ac,ac_long,ac_temp,
+    float bill_Amount, unit, fans,fans_long, light,light_long,acI,ac_long,ac_temp,
             cooler,cooler_long, refrigerator,refrigerator_long,
             Mobile_laptop,Mobile_laptop_long;
     float fan,fans_watt=0.06f,Light,light_watt=0.012f, Ac,ac_unit=0,Cooler,cooler_watt=0.2f,
@@ -21,7 +21,7 @@ class data {
         light=key.nextFloat();
         light_long=key.nextFloat();
         System.out.print("How many Air Conditioner(Ac) are there and how long does run in average(hours) =");
-        ac=key.nextFloat();
+        acI=key.nextFloat();
         ac_long=key.nextFloat();
         System.out.print("Enter average Ac temperature                                                   =");
         ac_temp=key.nextFloat();
@@ -37,282 +37,170 @@ class data {
 //        Mobile_laptop =key.nextFloat();
 //        Mobile_laptop_long=key.nextFloat();
     }
-    void logic()
-    {
+    void logic() {
 // per unit charge
-        float unit_charge=bill_Amount/unit;
+        float unit_charge = bill_Amount / unit;
 // fans logic
-fan =fans*fans_long;
-fan=fan*fans_watt;
-fan=fan*day2;
-fan=fan*unit_charge;
+        fan = fans * fans_long;
+        fan = fan * fans_watt;
+        fan = fan * day2;
+        fan = fan * unit_charge;
 
 //Light logic
-        Light=light*light_long;
-        Light=Light*light_watt;
-        Light=Light*day;
-        Light=Light*unit_charge;
+        Light = light * light_long;
+        Light = Light * light_watt;
+        Light = Light * day;
+        Light = Light * unit_charge;
 // ac logic
 
-        if(ac_long>=1 && ac_long<=1.5) {
-            if(ac_temp>=18 && ac_temp<=25) {
+        if (ac_long >= 1 && ac_long <= 1.5) {
+            if (ac_temp >= 18 && ac_temp <= 25) {
                 ac_unit = 1.7f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=1.5f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=1f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=0.8f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=0.5f;
-            }
-            else {
+            } else if (ac_temp == 26) {
+                ac_unit = 1.5f;
+            } else if (ac_temp == 27) {
+                ac_unit = 1f;
+            } else if (ac_temp == 28) {
+                ac_unit = 0.8f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 0.5f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>=1.6 && ac_long<=3)
-        {
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long >= 1.6 && ac_long <= 3) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 2.8f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=2.5f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=2.2f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=2f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=1.7f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=1f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp <= 25) {
+                ac_unit = 2.5f;
+            } else if (ac_temp == 26) {
+                ac_unit = 2.2f;
+            } else if (ac_temp == 27) {
+                ac_unit = 2f;
+            } else if (ac_temp == 28) {
+                ac_unit = 1.7f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 1f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>3.1 && ac_long<=4)
-        {
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long > 3.1 && ac_long <= 4) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 3.5f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=3f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=2.5f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=2.2f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=1.9f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=1.4f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp <= 25) {
+                ac_unit = 3f;
+            } else if (ac_temp == 26) {
+                ac_unit = 2.5f;
+            } else if (ac_temp == 27) {
+                ac_unit = 2.2f;
+            } else if (ac_temp == 28) {
+                ac_unit = 1.9f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 1.4f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>=4.1 && ac_long<=5)
-        {
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long >= 4.1 && ac_long <= 5) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 4f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=3.7f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=3f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=2.5f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=2.1f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=1.7f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp <= 25) {
+                ac_unit = 3.7f;
+            } else if (ac_temp == 26) {
+                ac_unit = 3f;
+            } else if (ac_temp == 27) {
+                ac_unit = 2.5f;
+            } else if (ac_temp == 28) {
+                ac_unit = 2.1f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 1.7f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>=5.1 && ac_long<=7){
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long >= 5.1 && ac_long <= 7) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 5.5f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=4.7f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=4f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=3.5f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=2.7f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=2.1f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp <= 25) {
+                ac_unit = 4.7f;
+            } else if (ac_temp == 26) {
+                ac_unit = 4f;
+            } else if (ac_temp == 27) {
+                ac_unit = 3.5f;
+            } else if (ac_temp == 28) {
+                ac_unit = 2.7f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 2.1f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>=7.1 && ac_long<=10){
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long >= 7.1 && ac_long <= 10) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 8f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=7f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=6f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=4.5f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=3.2f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=2.8f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp <= 25) {
+                ac_unit = 7f;
+            } else if (ac_temp == 26) {
+                ac_unit = 6f;
+            } else if (ac_temp == 27) {
+                ac_unit = 4.5f;
+            } else if (ac_temp == 28) {
+                ac_unit = 3.2f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 2.8f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>=10.1 && ac_long<=15)
-        {
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long >= 10.1 && ac_long <= 15) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 12f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=9f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=7.5f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=6f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=4.7f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=3.7f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp == 25) {
+                ac_unit = 9f;
+            } else if (ac_temp == 26) {
+                ac_unit = 7.5f;
+            } else if (ac_temp == 27) {
+                ac_unit = 6f;
+            } else if (ac_temp == 28) {
+                ac_unit = 4.7f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 3.7f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>=15.1 && ac_long<=20)
-        {
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long >= 15.1 && ac_long <= 20) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 15f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=12f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=9.5f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=8f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=6.7f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=5f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp <= 25) {
+                ac_unit = 12f;
+            } else if (ac_temp == 26) {
+                ac_unit = 9.5f;
+            } else if (ac_temp == 27) {
+                ac_unit = 8f;
+            } else if (ac_temp == 28) {
+                ac_unit = 6.7f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 5f;
+            } else {
                 ac_unit = 0f;
             }
-        }
-        else if(ac_long>=5 && ac_long<=24)
-        {
-
-            if(ac_temp>=18 && ac_temp<=22) {
+        } else if (ac_long >=20.1 && ac_long <= 24) {
+            if (ac_temp >= 18 && ac_temp <= 22) {
                 ac_unit = 15f;
-            }
-            else if(ac_temp==23 && ac_temp==25)
-            {
-                ac_unit=12f;
-            }
-            else if(ac_temp==26)
-            {
-                ac_unit=9.5f;
-            }
-            else if(ac_temp==27)
-            {
-                ac_unit=8f;
-            }
-            else if(ac_temp==28)
-            {
-                ac_unit=6.7f;
-            }
-            else if(ac_temp==29 && ac_temp==30)
-            {
-                ac_unit=5f;
-            }
-            else {
+            } else if (ac_temp >= 23 && ac_temp <= 25) {
+                ac_unit = 12f;
+            } else if (ac_temp == 26) {
+                ac_unit = 9.5f;
+            } else if (ac_temp == 27) {
+                ac_unit = 8f;
+            } else if (ac_temp == 28) {
+                ac_unit = 6.7f;
+            } else if (ac_temp == 29 || ac_temp == 30) {
+                ac_unit = 5f;
+            } else {
                 ac_unit = 0f;
             }
         }
         else {
             ac_unit = 0;
         }
-        Ac=ac*ac_unit;
+
+        Ac=acI*ac_unit;
         Ac=Ac*day4_ac;
         Ac=Ac*unit_charge;
 
