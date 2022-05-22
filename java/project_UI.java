@@ -452,45 +452,37 @@ label30=new JLabel("");
             }
         });
 
-
-
-//        Text10.addKeyListener(new KeyAdapter() {
-//            public void keyPressed(KeyEvent ke) {
-//                String value = Text10.getText();
-//                int l = value.length();
-//                if (ke.getKeyChar() >= '0' && ke.getKeyChar() <= '9') {
-//
-//                    Text10.setEditable(true);
-//                    label20.setText("");
-//                } else {
-//                    Text10.setEditable(false);
-//                    label20.setText("* Enter only numeric digits(0-9)");
-//                    label20.setForeground(Color.red);
-//                    label20.setBounds(730,575,600,25);
-//                }
-//            }
-//        });
-
-//       // JButton jb1;
-//        jb1 = new JButton("+");
-//        jb1.setBounds(730, 575, 100, 30);
-
-//        label20 = new JLabel("Result :");
-//        label20.setBounds(730, 555, 100, 30);
-//
-//        label21 = new JLabel("");
-//        label21.setBounds(730, 590, 100, 30);
-
-//       Text15 = new JTextField();
-//        Text15.setBounds(730,575,100,30);
         JButton jb1;
         jb1 = new JButton("Generator");
         jb1.setBounds(400, 520, 100, 30);
-        JLabel lbl;
+        JLabel lbl,lbl1,lbl2,lbl3,lbl4,lbl5,lbl6;
         lbl = new JLabel("Result:");
-        lbl.setBounds(730, 540, 150, 30);
+        lbl.setBounds(730, 60, 10000, 30);
+        lbl.setFont(new Font("", Font.PLAIN, 18));
 
+        lbl1 = new JLabel("Result:");
+        lbl1.setBounds(730, 110, 10000, 30);
+        lbl1.setFont(new Font("", Font.PLAIN, 18));
 
+        lbl2 = new JLabel("Result:");
+        lbl2.setBounds(730, 160, 10000, 30);
+        lbl2.setFont(new Font("", Font.PLAIN, 18));
+
+        lbl3 = new JLabel("Result:");
+        lbl3.setBounds(730, 210, 10000, 30);
+        lbl3.setFont(new Font("", Font.PLAIN, 18));
+
+        lbl4 = new JLabel("Result:");
+        lbl4.setBounds(730, 260, 10000, 30);
+        lbl4.setFont(new Font("", Font.PLAIN, 18));
+
+        lbl5 = new JLabel("Result:");
+        lbl5.setBounds(730, 310, 10000, 30);
+        lbl5.setFont(new Font("", Font.PLAIN, 18));
+
+        lbl6 = new JLabel("Result:");
+        lbl6.setBounds(730, 360, 10000, 30);
+        lbl6.setFont(new Font("", Font.PLAIN, 18));
 
 
         Text9.addKeyListener(new KeyAdapter() {
@@ -510,12 +502,6 @@ label30=new JLabel("");
             }
         });
 
-
-        JTextArea tout;
-
-        tout = new JTextArea();
-        tout.setFont(new Font("Arial", Font.PLAIN, 15));
-        tout.setBounds(730,100,300,400);
 
 
         jb1.addActionListener(e -> {
@@ -743,31 +729,37 @@ label30=new JLabel("");
 
 
 
-int data = 0;
+
                     total = 0;
                     if (e.getSource().equals(jb1)) {
+                        float a = fan;
+                        float b = Light;
+                        float c = Ac;
+                        float d = Cooler;
+                        float e1 = refri;
+                        total = fan + Light + Ac + Cooler + refri;
 
-                        String data1;
-                         data = (int) Float.parseFloat("fans bills= " + fan + "\n" + "light bills= " + Light + "\n" + "Ac bills= " + Ac + "\n" +
-                                "Cooler bills=" + Cooler + "\n" + "Refrigerator bills=" + refri + "\n" +
-                                "Approximatively Total bills amount depend on enter all the details=" + total);
-                        total = refri + Cooler + fan + Light + Ac;
-                        tout.setText(String.valueOf(data));
-                        tout.setEditable(false);
+                        lbl.setText("fans bills                                                                                       =" + a);
+                        lbl1.setText("Light bills                                                                                      =" + b);
+                        lbl2.setText("Ac bills                                                                                          =" + c);
+                        lbl3.setText("Cooler bills                                                                                    =" + d);
+                        lbl4.setText("Refrigerator bills                                                                           =" + e1);
+                        lbl5.setText("Approximately Total bills amount depend on enter all the details ="+total);
+
                     }
-                    lbl.setText(""+total);
-//lbl.setText(""+data);
-            lbl.setText("" + fan);
-            lbl.setText("" + Light);
-            lbl.setText("" + Ac);
-            lbl.setText("" + Cooler);
-            lbl.setText("" + refri);
-           //
-           //  lbl.setText("" + total);
-        });
+                    });
 
             frame.add(jb1);
             frame.add(lbl);
+        frame.add(lbl1);
+        frame.add(lbl2);
+        frame.add(lbl3);
+        frame.add(lbl4);
+        frame.add(lbl5);
+        //frame.add(lbl6);
+
+
+
 
             panel.add(title);
             panel.add(label1);
@@ -817,7 +809,7 @@ int data = 0;
             frame.add(label18);
             frame.add(label19);
             // frame.add(label20);
-        frame.add(tout);
+        //frame.add(tout);
 
 
             frame.setSize(1372, 726);
