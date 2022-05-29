@@ -19,6 +19,7 @@ public class wordle {
     public static void main(String[] args) throws IOException {
         long startTime = System.currentTimeMillis();
         int tries = 0;
+int count=0;
         System.out.println("Welcome to Wordle Game :");
         System.out.println("******************************************************************************************");
         System.out.println("Type Five Letter Word :");
@@ -30,6 +31,12 @@ public class wordle {
 
         while (!done) {
             tries++;
+            count++;
+            if(count==7)
+            {
+                System.out.println("Maximum tries only 6 you can try again");
+                System.exit(0);
+            }
             String R1 = s.nextLine().toLowerCase();
             if (R1.length()<5)
             {
@@ -54,6 +61,7 @@ public class wordle {
     }
 
     public static boolean PrintWordWithColor(char[] inputWord, char[] correctWord) {
+
         boolean correct = true;
         char[] answerTemp = correctWord;
         int[] colorForLetter = new int[5]; //0 is grey, yellow is 1, green is 2
@@ -81,7 +89,10 @@ public class wordle {
             if (colorForLetter[m] == 2) System.out.print(ANSI_GREEN + inputWord[m] + ANSI_RESET);
         }
         System.out.println("");
+
+
         return correct;
+
     }
 
     public static String ReturnRandomWord() throws IOException {
