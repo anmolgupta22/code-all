@@ -20,6 +20,14 @@ public class All_String {
 //        System.out.println(st.lastIndexOf("r",5));
 //        System.out.println(st.equals("Hello World"));
 
+        String s="1hello3";
+        int sum=0;
+        for(int i=0;i<s.length();i++){
+if((s.charAt(i)<='0') || (s.charAt(i)>='0')){
+ sum+=s.charAt(i);
+}
+        }
+
     }
 
 
