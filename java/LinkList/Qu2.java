@@ -8,7 +8,6 @@
 //        next=null;
 //    }
 //}
-//
 //class Main{
 //    static Node insertAtEnd(Node head, int x,int key1){
 //        Node temp=new Node(x);
@@ -33,18 +32,7 @@
 //        return head;
 //    }
 //
-////    static Node addAtEnd(Node head, int key1){
-////        Node temp=new Node(key1);
-////        if(head==null){
-////            return temp;
-////        }
-////        Node cur=head;
-////        while (cur!=null){
-////            cur=cur.next;
-////        }
-////        cur.next=temp;
-////        return head;
-////    }
+//
 //
 //    public static void main(String arg[]){
 //        Scanner key=new Scanner(System.in);
