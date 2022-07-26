@@ -12,7 +12,6 @@ public class pattern_2 {
     public static void main(String arg[])
     {
         Scanner key=new Scanner(System.in);
-        System.out.print("Enter the pattern Numbers=");
         int n=key.nextInt();
 
         for(int i=1;i<=n;i++){
@@ -24,4 +23,5 @@ public class pattern_2 {
 
             System.out.println();
         }
-    }}
+    }
+}

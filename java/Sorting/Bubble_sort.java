@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Bubble_sort {
     public static int[] bubble(int[] arr, int n){
-        int temp=0;
+        int temp;
         for(int i=0;i<n;i++){
             for(int j=0;j<n-1;j++){
                 if(arr[j]>arr[j+1])
