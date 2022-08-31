@@ -207,7 +207,7 @@ class data {
         Ac=Ac*unit_charge;
 
         //cooler logic
-        Cooler=cooler*cooler_long;
+        Cooler=cooler*cooler_long;//ghh
         Cooler=Cooler*cooler_watt;
         Cooler=Cooler*day1;
         Cooler=Cooler*unit_charge;
