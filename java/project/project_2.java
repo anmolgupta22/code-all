@@ -53,7 +53,8 @@ class data {
         Light = Light * unit_charge;
 // ac logic
 
-        if (ac_long >= 1 && ac_long <= 1.5) {
+        if (ac_long >= 1 && ac_long <= 1.5)
+        {
             if (ac_temp >= 18 && ac_temp <= 25) {
                 ac_unit = 1.7f;
             } else if (ac_temp == 26) {
@@ -64,7 +65,8 @@ class data {
                 ac_unit = 0.8f;
             } else if (ac_temp == 29 || ac_temp == 30) {
                 ac_unit = 0.5f;
-            } else {
+            } else
+            {
                 ac_unit = 0f;
             }
         } else if (ac_long >= 1.6 && ac_long <= 3) {

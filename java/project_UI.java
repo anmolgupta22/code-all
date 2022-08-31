@@ -526,10 +526,10 @@ label30=new JLabel("");
                     // per unit charge
                     float unit_charge = bill_Amount / unit;
 // fans logic
-                    fan = fans * fans_long;
-                    fan = fan * fans_watt;
-                    fan = fan * day2;
-                    fan = fan * unit_charge;
+                    fan = fans * fans_long; //12*4.6=55.2
+                    fan = fan * fans_watt;//55.2*0.06=3.312
+                    fan = fan * day2;//3.312*25
+                    fan = fan * unit_charge;//82.8*7.42=615
 
 //Light logic
                     Light = light * light_long;
