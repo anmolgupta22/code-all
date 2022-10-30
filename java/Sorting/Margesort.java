@@ -1,6 +1,8 @@
 package Sorting;
-public class Margesort {
-    public static void divide(int arr[], int st, int end) {
+public class Margesort
+{
+    public static void divide(int arr[], int st, int end)
+    {
         if(st>=end){
             return;
         }
@@ -29,7 +31,8 @@ public class Margesort {
             marged[x++]=arr[m++];
 
         }
-        for(int i=0, j=st; i<marged.length;i++,j++){
+        for(int i=0, j=st; i<marged.length;i++,j++)
+        {
 arr[j]=marged[i];
         }
     }
