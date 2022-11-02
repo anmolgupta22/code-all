@@ -1,7 +1,6 @@
 //package gfgORleetcode;
 //
 ////{ Driver Code Starts
-////Initial Template for Java
 //import java.util.LinkedList;
 //import java.util.Queue;
 //import java.io.*;
@@ -95,36 +94,55 @@
 //        while(t > 0){
 //            String s = br.readLine();
 //            Node root = buildTree(s);
-//            checkBST g = new checkBST();
-//            if(g.isBST(root))
-//                System.out.println(1);
-//            else
-//                System.out.println(0);
+//            Tree g = new Tree();
+//            ArrayList<Integer> result = g.leftView(root);
+//            for(int value : result){
+//                System.out.print(value + " ");
+//            }
+//            System.out.println();
 //            t--;
-//
 //        }
 //    }
-//
 //}
-//
-//
 //
 //// } Driver Code Ends
 //
 //
 ////User function Template for Java
 //
-//
-//public class checkBST
+///* A Binary Tree node
+//class Node
 //{
-//    boolean isBST(Node root)
+//    int data;
+//    Node left, right;
+//
+//    Node(int item)
 //    {
-//        return isValid(root, Long.MIN_VALUE, Long.MAX_VALUE);
+//        data = item;
+//        left = right = null;
 //    }
-//    public boolean isValid(Node root, long min, long max) {
-//        if (root == null) return true;
-//        boolean leftchild= isValid(root.left, min, root.data);
-//        boolean rightchild= isValid(root.right, root.data, max);
-//        return leftchild && rightchild;
+//}*/
+//class Tree
+//{
+//    //Function to return list containing elements of left view of binary tree.
+//    ArrayList<Integer> leftView(Node root)
+//    {
+//        List<Integer> list= new ArrayList<>();
+//        leftcheck( root,list,0);
+//        return list;
+//    }
+//
+//    public void leftcheck(Node root, ArrayList<Integer> list,int level){
+//        if(root==null){
+//            return;
+//        }
+//        if(level==list.size())
+//        {
+//            list.add(root.data);
+//        }
+//
+//        leftcheck(root.left,list,level+1);
+//        leftcheck(root.right,list,level+1);
+//
 //    }
 //}

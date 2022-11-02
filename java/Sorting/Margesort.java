@@ -1,7 +1,7 @@
 package Sorting;
 public class Margesort
 {
-    public static void divide(int arr[], int st, int end)
+    public static void divide(int[] arr, int st, int end)
     {
         if(st>=end){
             return;
